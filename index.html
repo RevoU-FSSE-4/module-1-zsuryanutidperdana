@@ -5,36 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xxxx Bakery</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" type="image/x-icon" href="">
 </head>
 <body>
     <header>
         <h1>XXXX's Bakery</h1>
     </header>
     <main>
-        <figure>
-            <img src="./assets/istockphoto-492428226-612x612.jpg" alt="black forest" style="display: block; ">
-            <figcaption>Black Forest Cake: Rp. 20.000</figcaption>
-        </figure>
+        <section>
+            <figure>
+                <img src="./assets/istockphoto-492428226-612x612.jpg" alt="black forest" style="display: block; ">
+                <figcaption>Black Forest Cake: Rp. 20.000</figcaption>
+            </figure>
+        </section>
+        <section>
+            <p>Untuk memesan, tolong masukkan data diri anda sebagai berikut:</p>
+            <form>
+                <label for="nama" style="display: block; margin-bottom: 5px">Nama: <input type="text" id="nama" style="margin-left: 53px"></label>
+                <label for="jenisKelamin" style="display: block; margin-bottom: 5px">Jenis Kelamin: <select name="jenisKelamin" id="jenisKelamin">
+                    <option value="pria">Pria</option>
+                    <option value="wanita">Wanita</option>
+                    <option value="lainLain">Lain-Lain</option>
+                </select></label>
+                <label for="emailUser" style="display: block; margin-bottom: 5px">Email: <input type="email" id="emailUser" style="margin-left:52px"></label>
+                <label for="passwordUser" style="display: block; margin-bottom: 5px">Password: <input type="password" id="passwordUser" style="margin-left:28px"></label>
+                <label for="pesan" style="display: block; margin-bottom: 5px">Pesan:</label>
+                <textarea name="" id="pesan" cols="31" rows="5"></textarea>
+                <input type="submit" style="display:block; margin-top: 15px">
+            </form>
+        </section>
     </main>
-    <article>
-        <p>Untuk memesan, tolong masukkan data diri anda sebagai berikut:</p>
-        <form>
-            <label for="nama" style="display: block; margin-bottom: 5px">Nama: <input type="text" id="nama"></label>
-            <label for="jenisKelamin" style="display: block; margin-bottom: 5px">Jenis Kelamin: <select name="jenisKelamin" id="jenisKelamin">
-                <option value="pria">Pria</option>
-                <option value="wanita">Wanita</option>
-                <option value="lainLain">Lain-Lain</option>
-            </select></label>
-            <label for="emailUser" style="display: block; margin-bottom: 5px">Email: <input type="email" id="emailUser"></label>
-            <label for="passwordUser" style="display: block; margin-bottom: 5px">Password: <input type="password" id="passwordUser"></label>
-            <label for="pesan" style="display: block; margin-bottom: 5px">Pesan:</label>
-            <textarea name="" id="pesan" cols="30" rows="10"></textarea>
-            <input type="submit" style="display:block; margin-top: 15px">
-        </form>
-    </article>
     <footer>
 
     </footer>
-    <script type="text/javascript" src="./assets/script.js"></script>
+    <script type="text/javascript" src=""></script>
 </body>
 </html>
