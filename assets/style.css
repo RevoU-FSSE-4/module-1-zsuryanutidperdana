@@ -1,0 +1,559 @@
+/* CSS Styles for Mobile Devices */
+
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 40.062em) {
+  /* head item */
+
+  .sticky-container {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      0deg,
+      rgba(148, 78, 99, 1) 0%,
+      rgba(202, 166, 166, 1) 100%
+    );
+  }
+
+  .svg-color-white {
+    fill: none;
+    stroke-width: 1;
+    stroke: white;
+    margin: 0 0.6em;
+  }
+
+  .title-item {
+    height: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-container > h1 {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #ffe7e7;
+    margin-bottom: -20px;
+  }
+
+  .title-container > h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ffe7e7;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background: rgba(148, 78, 99, 1) 0%;
+    color: white;
+    border-top: white double 5px;
+  }
+
+  .nav-item {
+    display: none;
+  }
+  .nav-symbol-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #home {
+    margin-left: 20px;
+    width: 60px;
+    height: 63px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 63px;
+    font-size: 1.3em;
+  }
+  #home:hover {
+    margin-left: 20px;
+    width: 60px;
+    height: 63px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 63px;
+    background: #caa6a6;
+  }
+
+  .nav-symbol {
+    display: flex;
+    height: 63px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-symbol:hover {
+    display: flex;
+    background: #caa6a6;
+    height: 63px;
+    width: 60px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu-btn,
+  #login-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  /* body item */
+
+  .bg-main-page {
+    width: 100%;
+    max-width: 640px;
+    background: #ffe7e7;
+    position: relative;
+    top: 179px;
+    padding-top: 1.4em;
+  }
+
+  figure > img {
+    width: 300px;
+    height: auto;
+    box-shadow: #643843 0px 3px 8px;
+  }
+  figcaption {
+    text-align: center;
+    color: #643843;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50em;
+  }
+  .menu-container > h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #643843;
+  }
+  .cake-item:hover {
+    width: 310px;
+    height: auto;
+  }
+  .customer-review-container {
+    display: none;
+  }
+
+  /* Footer item */
+  .footer-container {
+    position: relative;
+    top: 11.2em;
+    background: #ac7d88;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-container > p {
+    margin-left: 1em;
+  }
+
+  .input-box {
+    margin-top: 5px;
+    margin-left: 1em;
+  }
+  .general-information {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+  }
+  .form-btn {
+    width: 280px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: space-between;
+  }
+  input,
+  select,
+  textarea {
+    background: #fdf0d1;
+    border: solid 2px #643843;
+    border-radius: 8px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px;
+    border-radius: 10px;
+    color: #643843;
+    background-color: #fdf0d1;
+    border-color: #643843;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fdf0d1;
+    background-color: #643843;
+    border-color: #fdf0d1;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  img#instagram {
+    width: 64px;
+    height: 64px;
+    margin: 10 5px;
+    cursor: pointer;
+  }
+
+  img#linkedin,
+  img#whatsapp,
+  img#github {
+    width: 46px;
+    height: 46px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+  #email {
+    margin-left: 59px;
+  }
+  #name {
+    margin-left: 56px;
+  }
+  .location-information {
+    margin-top: 10px;
+    margin-left: 1em;
+  }
+  iframe {
+    width: 90%;
+    margin: 10px 0;
+    margin-left: 1em;
+  }
+}
+
+/* CSS Styles for Desktop */
+
+@media only screen and (min-width: 40.062em) {
+  /* head item */
+
+  .sticky-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      0deg,
+      rgba(148, 78, 99, 1) 0%,
+      rgba(202, 166, 166, 1) 100%
+    );
+  }
+
+  .svg-color-white {
+    fill: none;
+    stroke-width: 1;
+    stroke: white;
+    margin: 0 0.6em;
+  }
+
+  .title-item {
+    height: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-container > h1 {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #ffe7e7;
+    margin-bottom: -20px;
+  }
+
+  .title-container > h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #ffe7e7;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 63px;
+    background: rgba(148, 78, 99, 1) 0%;
+    color: white;
+    border-top: white double 5px;
+  }
+
+  .nav-symbol-wrapper {
+    display: none;
+  }
+
+  #home,
+  #about-us,
+  #promotion,
+  #login {
+    margin-left: 20px;
+    width: 100px;
+    height: 68px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 68px;
+    font-size: 1.3em;
+  }
+  #home:hover,
+  #about-us:hover,
+  #promotion:hover,
+  #login:hover {
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background: #caa6a6;
+    cursor: pointer;
+  }
+
+  /* body item */
+
+  .bg-main-page {
+    width: 100%;
+    max-width: 1920px;
+    background: #ffe7e7;
+    position: relative;
+    top: 248px;
+  }
+
+  figure > img,
+  div > img {
+    width: auto;
+    height: 240px;
+  }
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    vertical-align: middle;
+    border-top: solid 1px #643843;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40em;
+    padding-top: 3em;
+  }
+  .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    width: 300px;
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #643843 0px 14px 28px, #643843 0px 10px 10px;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    width: 300px;
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #b47b84 0px 14px 28px, #b47b84 0px 10px 10px;
+    cursor: pointer;
+  }
+
+  .menu-container > h3 {
+    position: relative;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    margin-bottom: 1.75em;
+    color: #643843;
+  }
+  .cake-item {
+    width: 100%;
+    height: 15em;
+  }
+
+  .customer-review-container > h3 {
+    position: relative;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    margin-bottom: 1.75em;
+    color: #643843;
+  }
+  .customer-review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50em;
+  }
+
+  /* Footer item */
+  .footer-container {
+    position: relative;
+    top: 3em;
+    background: #ac7d88;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-container > p {
+    width: 100%;
+    margin-left: 1em;
+    font-size: 1.2rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  .input-box {
+    margin-top: 5px;
+    margin-left: 1em;
+  }
+  .general-information {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 1.2rem;
+  }
+  .form-btn {
+    width: 34em;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    display: flex;
+    justify-content: space-between;
+  }
+  input,
+  select,
+  textarea {
+    background: #fdf0d1;
+    border: solid 2px #643843;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #643843;
+    background-color: #fdf0d1;
+    border-color: #643843;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #fdf0d1;
+    background-color: #643843;
+    border-color: #fdf0d1;
+    border-width: 3px;
+    cursor: pointer;
+  }
+  .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  img#instagram {
+    width: 82px;
+    height: 82px;
+    margin: 10 5px;
+    cursor: pointer;
+  }
+
+  img#linkedin,
+  img#whatsapp,
+  img#github {
+    width: 64px;
+    height: 64px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+  #email {
+    margin-left: 68px;
+    width: 30.5em;
+  }
+  #name {
+    margin-left: 63px;
+    width: 30.5em;
+  }
+  textarea {
+    width: 40em;
+  }
+  .location-information {
+    margin-top: 10px;
+    margin-left: 1em;
+  }
+  iframe {
+    width: 95%;
+    margin: 10px 2em;
+  }
+}

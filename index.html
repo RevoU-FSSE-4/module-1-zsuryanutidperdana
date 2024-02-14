@@ -1,64 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xxxx Bakery</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="icon" type="image/x-icon" href="./assets/1669110.png">
-</head>
-<body>
-    <header>
-        <h1>XXXX's Bakery</h1>
-        <h2>The Most Delicious Cakes You Will Ever Tasted!</h2>
-    </header>
-    <main>
-        <section>
-            <h3>Here are our premium selection of cakes:</h3>
-            <figure>
-                <img src="./assets/istockphoto-492428226-612x612.jpg" alt="black-forest-cake" style="display: block; width: 400px" />
-                <figcaption><strong>Black Forest Cake</strong><b>: Rp. 20.000</b></figcaption>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Freshly made and delicous cake" />
+    <meta name="keywords" content="Cake, Bread, Bakery" />
+    <meta name="author" content="Zsuryanuti Dirgantara Perdana" />
+    <title>Just Bakery</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/1669110.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Dancing+Script:wght@400..700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sticky-container">
+      <header class="title-container">
+        <h1 class="title-item">
+          Just
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+            id="Layer_1"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-color-white"
+          >
+            <path
+              class="cls-1"
+              d="M14.81,15.46h0a3.81,3.81,0,0,0,0-.59,2.86,2.86,0,0,0-5.72,0,3.81,3.81,0,0,0,0,.59h0"
+            />
+            <path
+              class="cls-1"
+              d="M14.86,14.86a2.87,2.87,0,0,1,5.73,0L17.73,22.5H6.27L3.41,14.86a2.87,2.87,0,0,1,5.73,0"
+            />
+            <line class="cls-1" x1="9.14" y1="14.86" x2="10.09" y2="22.5" />
+            <line class="cls-1" x1="14.86" y1="14.86" x2="13.91" y2="22.5" />
+            <path
+              class="cls-1"
+              d="M13.65,4.36h.26a3.82,3.82,0,0,1,3.82,3.82v.17a2.86,2.86,0,0,1,1.91,2.7V13"
+            />
+            <path
+              class="cls-1"
+              d="M4.36,13v-1.9a2.86,2.86,0,0,1,1.91-2.7V8.18a3.82,3.82,0,0,1,3.82-3.82h.26"
+            />
+            <circle class="cls-1" cx="12" cy="3.41" r="1.91" />
+            <line class="cls-1" x1="12.95" y1="8.18" x2="14.86" y2="8.18" />
+            <line class="cls-1" x1="9.14" y1="9.14" x2="11.05" y2="9.14" />
+          </svg>
+          Bakery
+        </h1>
+        <h2 class="title-item">
+          ✨ The Most Delicious Cakes You Will Ever Tasted ✨
+        </h2>
+      </header>
+      <nav class="nav-container">
+        <p class="responsive-nav" id="home">Home</p>
+        <p class="nav-item" id="about-us">About Us</p>
+        <p class="nav-item" id="promotion">Promotion</p>
+        <p class="nav-item" id="login">Login</p>
+        <div class="nav-symbol-wrapper">
+          <div class="nav-symbol">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+              id="login-btn"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M2.00098 11.999L16.001 11.999M16.001 11.999L12.501 8.99902M16.001 11.999L12.501 14.999"
+                  stroke="#ffffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M9.00195 7C9.01406 4.82497 9.11051 3.64706 9.87889 2.87868C10.7576 2 12.1718 2 15.0002 2L16.0002 2C18.8286 2 20.2429 2 21.1215 2.87868C22.0002 3.75736 22.0002 5.17157 22.0002 8L22.0002 16C22.0002 18.8284 22.0002 20.2426 21.1215 21.1213C20.3531 21.8897 19.1752 21.9862 17 21.9983M9.00195 17C9.01406 19.175 9.11051 20.3529 9.87889 21.1213C10.5202 21.7626 11.4467 21.9359 13 21.9827"
+                  stroke="#ffffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="nav-symbol">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#fdfcfc"
+              id="menu-btn"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M4 6H20M4 12H20M4 18H20"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main class="bg-main-page">
+      <section>
+        <div class="menu-container">
+          <h3>🍰 Here are our premium selection of cakes 🍰</h3>
+          <div class="card-container">
+            <figure class="card">
+              <img
+                src="./assets/images/istockphoto-492428226-612x612.jpg"
+                alt="black-forest-cake"
+                class="cake-item"
+              />
+              <figcaption class="card-description">
+                <strong>Black Forest Cake</strong><b>: Rp. 20.000</b>
+              </figcaption>
             </figure>
-            <figure>
-                <img src="./assets/13862800-strawberry-shortcake.jpg" alt="strawberry-shortcake" style="display: block; width: 400px" />
-                <figcaption><strong>Strawberry Shortcake</strong><b>: Rp. 20.000</b></figcaption>
+            <figure class="card">
+              <img
+                src="./assets/images/13862800-strawberry-shortcake.jpg"
+                alt="strawberry-shortcake"
+                class="cake-item"
+              />
+              <figcaption class="card-description">
+                <strong>Strawberry Shortcake</strong><b>: Rp. 20.000</b>
+              </figcaption>
             </figure>
-            <figure>
-                <img src="./assets/istockphoto-1167344046-1024x1024.jpg" alt="cheese-cake" style="display: block; width: 400px" />
-                <figcaption><strong>Cheese Cake</strong><b>: Rp. 20.000</b></figcaption>
+            <figure class="card">
+              <img
+                src="./assets/images/istockphoto-1167344046-1024x1024.jpg"
+                alt="cheese-cake"
+                class="cake-item"
+              />
+              <figcaption class="card-description">
+                <strong>Cheese Cake</strong><b>: Rp. 20.000</b>
+              </figcaption>
             </figure>
-        </section>
-        <section>
-            <p>Untuk memesan, tolong masukkan data diri anda sebagai berikut:</p>
-            <form>
-                <label for="name">Nama: </label>
-                <input type="text" id="name" style="margin-left: 53px" placeholder="isi nama anda" required /><br>
-                <label for="sex">Jenis Kelamin:</label>
-                <select id="sex">
-                    <option disable selected value>--pilih salah satu--</option>
-                    <option value="man">Pria</option>
-                    <option value="woman">Wanita</option>
-                    <option value="others">Lain-Lain</option>
-                </select><br>
-                <label for="email">Email: </label>
-                <input type="email" id="email" style="margin-left:52px" placeholder="isi alamat email anda" required /><br>
-                <label for="dob">Tanggal Lahir:</label>
-                <input type="datetime-local" id="dob" />
-                <label for="message" style="display: block; margin-bottom: 5px">Pesan:</label>
-                <textarea name="" id="message" cols="31" rows="5" placeholder="isi pesanan anda disini..."></textarea>
-                <div class="button" style="margin-top: 10px;">
-                    <input type="submit" />
-                    <input type="reset" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="customer-review-container">
+          <h3>⭐ What Does Our Customer Say About Us? ⭐</h3>
+          <div class="card-container">
+            <div class="card">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
+                alt="john-doe"
+              />
+              <div class="card-description">
+                <div id="customer-name">John Doe</div>
+                <div id="customer-rate">⭐⭐⭐⭐⭐</div>
+                <div id="customer-description">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 </div>
-            </form>
-        </section>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/58/KPU_Komeng.jpg"
+                alt="komeng"
+              />
+              <div class="card-description">
+                <div id="customer-name">Komeng</div>
+                <div id="customer-rate">⭐⭐⭐⭐⭐</div>
+                <div id="customer-description">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg"
+                alt="mary-sue"
+              />
+              <div class="card-description">
+                <div id="customer-name">Mary Sue</div>
+                <div id="customer-rate">⭐⭐⭐⭐</div>
+                <div id="customer-description">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer style="margin-top: 30px">
-        <hr>
-        <section>
-            <p>Copyright &copy; Zsuryanuti Dirgantara Perdana 2024</p>
-        </section>
+    <footer class="footer-container">
+      <p>Untuk memesan, tolong masukkan data diri anda sebagai berikut:</p>
+      <form class="form-container">
+        <div class="input-box">
+          <label for="name">Nama: </label>
+          <input type="text" id="name" placeholder="isi nama anda" required />
+        </div>
+        <div class="input-box">
+          <label for="sex">Jenis Kelamin:</label>
+          <select id="sex">
+            <option disable selected value>--pilih salah satu--</option>
+            <option value="male">Pria</option>
+            <option value="female">Wanita</option>
+            <option value="others">Lain-Lain</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="isi alamat email anda"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="dob">Tanggal Lahir:</label>
+          <input type="date" id="dob" />
+        </div>
+        <div class="input-box">
+          <label for="message">Pesanan:</label><br />
+          <textarea
+            name=""
+            id="message"
+            cols="38"
+            rows="5"
+            placeholder="isi pesanan anda disini..."
+          ></textarea>
+        </div>
+        <div class="form-btn">
+          <div>
+            <input type="submit" />
+          </div>
+          <div>
+            <input type="reset" />
+          </div>
+        </div>
+      </form>
+      <p class="location-information">Lokasi Toko (Fiktif):</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63441.25134903794!2d106.77151284786575!3d-6.383907162799151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f76f5c75cca7%3A0x9790bb032d5e6fdf!2sDepok%20Town%20Square%20(Detos)!5e0!3m2!1sid!2sid!4v1707915363258!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <section class="general-information">
+        <p>Copyright &copy; Just Bakery 2024</p>
+        <p>Made by: Zsuryanuti Dirgantara Perdana</p>
+      </section>
+      <div class="social-media">
+        <a href="https://www.instagram.com/zsuryanuti/" target="_blank">
+          <img
+            src="./assets/images/icons8-instagram-96.png"
+            alt="instagram"
+            id="instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/zsuryanutiperdana/"
+          target="_blank"
+        >
+          <img
+            src="./assets/images/5296501_linkedin_network_linkedin logo_icon.png"
+            alt="linkedin"
+            id="linkedin"
+          />
+        </a>
+        <a href="https://wa.me/+628111034251" target="_blank">
+          <img
+            src="./assets/images/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png"
+            alt="whatsapp"
+            id="whatsapp"
+          />
+        </a>
+        <a href="https://github.com/zsuryanutidperdana" target="_blank">
+          <img
+            src="./assets/images/github-mark-white.png"
+            alt="github"
+            id="github"
+          />
+        </a>
+      </div>
     </footer>
-    <script type="text/javascript" src=""></script>
-</body>
+    <script type="text/javascript" src="./assets/script.js"></script>
+  </body>
 </html>
