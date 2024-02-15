@@ -322,9 +322,9 @@
 
   .nav-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    height: 63px;
+    height: 100%;
     background: rgba(148, 78, 99, 1) 0%;
     color: white;
     border-top: white double 5px;
@@ -364,17 +364,17 @@
 
   .bg-main-page {
     width: 100%;
-    max-width: 1920px;
     background: #ffe7e7;
     position: relative;
     top: 194px;
     padding-top: 10px;
+    padding-right: 0.6em;
   }
 
   figure > img,
   div > img {
-    width: auto;
-    height: 240px;
+    width: 100%;
+    height: 15em;
   }
   .card-description {
     display: flex;
@@ -402,7 +402,7 @@
     justify-content: space-around;
   }
   .card {
-    width: 300px;
+    width: 18.75em;
     height: 21em;
     display: flex;
     flex-direction: column;
@@ -426,10 +426,6 @@
     margin-bottom: 1.75em;
     color: #643843;
   }
-  .cake-item {
-    width: 100%;
-    height: 15em;
-  }
 
   .customer-review-container > h3 {
     position: relative;
@@ -448,11 +444,14 @@
   }
 
   /* Footer item */
+
   .footer-container {
     position: relative;
     top: 3em;
+    width: 100%;
     background: #ac7d88;
     padding-top: 2em;
+    padding-right: 0.6em;
     display: flex;
     flex-direction: column;
     color: white;
@@ -554,7 +553,7 @@
     margin-left: 1em;
   }
   iframe {
-    width: 95%;
-    margin: 10px 2em;
+    width: 98%;
+    margin: 1em;
   }
 }
